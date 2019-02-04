@@ -1,7 +1,10 @@
 [package]
 name = "rust-ping"
 version = "0.1.0"
-authors = ["Ildar Davletov <ildar.davletov@abbyy.com>"]
+authors = ["rerime"]
+url = "https://github.com/rerime"
 edition = "2018"
 
 [dependencies]
+clap = {version = "2.32", features = ["yaml"]}
+yaml-rust = "0.4"

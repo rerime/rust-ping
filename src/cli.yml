@@ -1,0 +1,17 @@
+name: rust-ping
+version: "1.0"
+about: Ping by TCP or ICMP
+author: https://github.com/rerime
+args:
+    - host:
+        short: h
+        long: host
+        value_name: HOST
+        help: Set IP address or FQDN
+        #required: true
+        takes_value: true
+    - port:
+        short: p
+        long: port
+        help: Set port in range 1-65535
+        takes_value: true
